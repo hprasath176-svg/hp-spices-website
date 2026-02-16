@@ -43,26 +43,32 @@ body{
     background-position: center;
 
 }
-.organic{
-    padding-top: 300px;
-    padding-left: 300px;
-    font-size:5rem;
+#body1 .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.organic {
+    font-size: 3rem;
     color: white;
     text-shadow: 0px 1px 0px white
-                 px 2px 0px white
-                 px 3px 0px white
-                 px 4px 0px white
-                 px 5px 0px white
-                 px 6px 0px white
-                 px 7px 0px white
-                 px 8px 0px white
-                 px 9px 0px white;
+                 0px 2px 0px white
+                 0px 3px 0px white
+                 0px 4px 0px white
+                 0px 5px 0px white
+                 0px 6px 0px white
+                 0px 7px 0px white
+                 0px 8px 0px white ;
 }
+
 #body1 .start{
     background-color: green;
     color: white;
-    margin-left: 45%;
-    margin-top: 20px;
+    margin-top:15px;
 }
 #About{
     background: linear-gradient(to right,#ea1d6f,#eb466b 100%);
@@ -98,5 +104,6 @@ body{
     height: 200px;
     object-fit: cover;
 }
+
 
 
