@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+#headers {
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: black !important;
+}
+
+
+.navbar .navbar-brand{
+    color: #29f700 !important;
+    font-size:larger ;
+}
+.navbar .nav-item{
+    border-bottom: 1 px solid transparent
+}
+.navbar .nav-item:hover{
+    border-bottom: 2px solid #29f700;
+}
+.navbar .btn{
+    background-color: #29f700;
+    color: white;
+    border-radius: 15px;
+}
+#body1{
+    background: linear-gradient(rgb(0,0,0,.4),rgb(0,0,0,.4)),url(body1.jpg) ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+
+}
+.organic{
+    padding-top: 300px;
+    padding-left: 300px;
+    font-size:5rem;
+    color: white;
+    text-shadow: 0px 1px 0px white
+                 px 2px 0px white
+                 px 3px 0px white
+                 px 4px 0px white
+                 px 5px 0px white
+                 px 6px 0px white
+                 px 7px 0px white
+                 px 8px 0px white
+                 px 9px 0px white;
+}
+#body1 .start{
+    background-color: green;
+    color: white;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+#About{
+    background: linear-gradient(to right,#ea1d6f,#eb466b 100%);
+}
+#About h2{
+    font-weight: 900;
+}
+#Products{
+    background-color: #ecf0f3;
+    z-index: 1;
+}
+#Products .card{
+    background-color: #ecf0f3;
+    margin-top: 30px;
+    border: none;
+    box-shadow: 0px 8px 15px rgb(0,0,0,.3),
+                inset 5px 5px 10px white;
+
+}
+
+#Products .card:hover{
+    box-shadow: inset 5px 5px 10px gray,
+                      5px 5px 10px white;
+}
+#contacts input{
+    display: flex;
+    flex-direction: column;
+}
+#contacts .form-control {
+    margin-bottom: 15px;
+}
+#Products .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
